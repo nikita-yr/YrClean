@@ -23,9 +23,10 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        Loaded += (_, _) => RunScan();
     }
 
-    private void ScanButton_Click(object sender, RoutedEventArgs e)
+    private void RunScan()
     {
         var settings = SettingsService.Load();
         var scanner = new FolderScanner();
@@ -108,7 +109,7 @@ public partial class MainWindow : Window
             MessageBoxButton.OK,
             MessageBoxImage.Information);
 
-        ScanButton_Click(sender, e);
+        RunScan();
     }
 
     private void ScheduleButton_Click(object sender, RoutedEventArgs e)
@@ -142,7 +143,7 @@ public partial class MainWindow : Window
             "Exclusions",
             MessageBoxButton.OK,
             MessageBoxImage.Information);
-        ScanButton_Click(sender, e);
+        RunScan();
     }
 
     private object? GetClickedItem(object sender)
