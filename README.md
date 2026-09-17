@@ -48,6 +48,6 @@ The scheduled auto-discovery option is enabled by default for new settings, but 
 
 Every deletion is checked against the configured cache roots, the minimum access-age threshold, protected extensions, and reparse-point rules. Discovery is bounded by maximum depth and folder count, and exclusion keywords take precedence over cache-name matches.
 
-## License
+## 📄 License
 
-No license has been specified yet.
+Licensed under the [MIT License](LICENSE).
