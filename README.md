@@ -16,7 +16,6 @@
   Run it by hand or let it run silently on a schedule.
 </p>
 
-<sub>Part of the <b>YRCORE Tools</b> suite. *(remove this line if that's not a thing you're using — easy to drop)*</sub>
 
 ---
 
