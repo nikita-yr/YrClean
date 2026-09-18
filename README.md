@@ -187,7 +187,7 @@ Yes — per scan or saved for scheduled runs, and exclusions always beat a cache
 
 ## 🗺️ Roadmap
 
-- [ ] Dark theme
+- [x] Dark theme
 - [ ] JSON-formatted log (alongside the plain-text one)
 - [ ] UI redesign pass
 - [ ] Portable / single-file build
