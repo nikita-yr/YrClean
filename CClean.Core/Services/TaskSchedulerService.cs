@@ -25,7 +25,7 @@ public static class TaskSchedulerService
                 ScheduleFrequency.Weekly => "WEEKLY",
                 _ => "DAILY"
             },
-            "/RL", "LIMITED"
+            "/RL", "HIGHEST"
         };
 
         if (settings.Frequency == ScheduleFrequency.Hourly)

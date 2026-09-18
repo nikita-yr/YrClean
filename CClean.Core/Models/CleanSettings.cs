@@ -14,7 +14,7 @@ public class CleanSettings
     public List<string> DisabledSourceNames { get; set; } = new();
     public List<string> ExcludedPaths { get; set; } = new();
 
-    public bool ScheduleEnabled { get; set; } = false;
+    public bool ScheduleEnabled { get; set; } = true;
     public ScheduleFrequency Frequency { get; set; } = ScheduleFrequency.Daily;
 
     // Ignored when Frequency == Hourly
