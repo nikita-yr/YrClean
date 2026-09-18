@@ -115,8 +115,6 @@ dotnet build YrClean.sln
 YrClean.UI\bin\Debug\net8.0-windows\YrClean.UI.exe
 ```
 
-*(If/when you cut a Release build and publish binaries, swap this for: "Download the latest release from the Releases page and run `YrClean.UI.exe`.")*
-
 ## 🔧 Build
 
 ```powershell
