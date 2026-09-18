@@ -29,7 +29,8 @@
 -->
 <p align="center">
   <!-- <img src="assets/screenshot.png" width="700" alt="YrClean main window"> -->
-  <i>Screenshot coming soon — see the HTML comment above for the two-minute way to add one.</i>
+  <img width="978" height="742" alt="image" src="https://github.com/user-attachments/assets/60dcdf0a-6359-4eaf-a18a-a59276f6a8d0" />
+
 </p>
 
 The main window is a single tree: sources → cache groups → individual files, each with its own checkbox, size, and file count. Select what you want, hit **Clean**, confirm the total, done. Right-click anything to open its folder, look it up online, or exclude it from future scans.
